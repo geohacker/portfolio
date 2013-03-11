@@ -22,12 +22,27 @@ body {
 }
 
 #gallery .row-fluid {
-	margin-top: 25px;
 }
+
 .gallery-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background: #ddd;
 	border-radius: 3px 3px 3px 3px;
 	height: 300px;
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+.gallery-item:hover{
+	opacity: 1;
+	/*border: 1px solid black;*/
+}
+
+.gallery-item p{
+	font-size: 26px;
+	margin-right: 30px;
+	margin-top: 30px;
 }
 
 .footer {
