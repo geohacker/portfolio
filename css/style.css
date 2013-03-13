@@ -1,5 +1,6 @@
 body {
 	margin-top: 40px;
+	background: url('/images/subtle_dots.png');
 }
 
 .container {
@@ -19,9 +20,11 @@ body {
     text-align: center;
     width: 200px;
     background: #ddd;
+    margin-bottom: 30px;
 }
 
-#gallery .row-fluid {
+#gallery {
+	margin-top: 50px;
 }
 
 .gallery-item {
