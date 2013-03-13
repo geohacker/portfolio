@@ -45,7 +45,7 @@ body {
 .gallery-item p{
 	color: white;
 	font-size: 26px;
-	padding-top: 50%;
+	padding-top: 45%;
 	text-align: center;
 }
 
@@ -55,7 +55,25 @@ body {
 }
 
 .gallery-item.dopey {
+	height: 213px;
 	background: url('/images/dopey.png');
 	background-repeat: no-repeat;
+}
 
+.blank {
+	background: none;
+}
+
+.blank:hover {
+	opacity: 1;
+}
+
+.icons {
+	height: 130px;
+	box-shadow: 1px 1px 2px #D5D5D5;
+}
+
+.icons img {
+	vertical-align: middle;
+	padding-top: 15px;
 }
